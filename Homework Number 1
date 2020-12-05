@@ -1,0 +1,84 @@
+Homework 1 from Justin
+
+Unix Directory Structure
+Follow the series of directions below and answer all underlined questions in a file called
+“unix_structure.txt”. If the question is followed by a “%”, provide the series of commands you
+executed in order to determine the answer, along with their output. (You can do so by
+screenshotting the terminal and uploading that screenshot to the repo folder. Include the section
+and question number in its title.)
+1. Open a new terminal window 
+a. What is the full PATH to the directory you’re currently in? % /Users/justin  I just use the command pwd
+b. What is the nickname we use for this directory?  justin
+2. Within that same terminal window, type “cd ..”, and execute. 
+3. Execute “cd ..”  
+a. What is the full PATH to the directory you’re currently in? % since cd changes or clear directory and .. represents the previous parent directory, but if you are in the root directory and executed this command, this command cannot be executed
+a. What is the full PATH to the directory you’re currently in?  I am still in the root directory  /Users/justin
+b. What is the nickname we use for this directory? justin
+
+Complete the following by hand on a separate piece of paper.
+1. Illustrate your computer’s file system structure, upload in “dir_structure.pdf”
+a. The uppermost box should be titled with the nickname found in 3b of the previous
+set of instructions.
+b. Make arrow marks from that directory box into other subdirectories found within
+that directory.
+c. Do the same with the directory you found in 2a above. Don’t list the contents of
+any other directory!
+d. Do the same with the directory found in 1b.
+e. Keep track of the commands you execute and write them on the side of your
+illustration.
+
+Linux Commands.  I will show a picture on google classroom for the completed instrucutions
+1. Open a new terminal window
+a. Locate the folder containing your GitHub repo.
+b. Within your assignment0 directory, create a directory called “linux_practice”, and
+move your terminal into that directory using the cd command. Make sure to
+provide the proper directory name!
+c. Execute the series of following commands. While doing so, do not use ls or pwd.
+i. Mkdir hello
+ii. Mkdir world
+
+iii. Mkdir hello_world.
+iv. touch test.txt  -
+v. Cp test.txt hello_world
+vi. Mv hello_world hello
+vii. Cd world
+viii. Touch second.txt
+ix. Mv second.txt ..
+x. Mkdir third
+xi. Cd third
+xii. Touch fourth.txt
+xiii. Cp fourth.txt ../../hello/hello_world
+d. Draw a prediction of all of the contents located within your linux_practice
+directory. DO NOT CHECK USING LS!!
+i. Begin your illustration with the linux_practice directory at the top, with
+arrows pointing to each of its subdirectories, along with their
+subdirectories and files, etc
+
+e. After drawing out what you think the directories should look like, check your
+answers by navigating the directories using cd, ls, and pwd.
+f. Submit images “pre_check.pdf” and “post_check.pdf”, noting anything you got
+incorrect.
+
+GitHub
+1. Read this git website through the end of “1: Repositories”
+2. Here are the commands we’ll use:
+a. git add .
+i. Accounts for all changes, and adds them to the commit object being
+pushed
+ii. Adds everything within the repo, you can add specific files or directories
+by replacing the “.” with specific file names
+b. git commit -m “[a descriptive commit message]”
+i. Finalizes the commit object, ensures no errors will come as a result
+ii. commit messages should be succinct, go over general changes made
+c. git push
+i. Sends commit object to repo, should update on repo page on GitHub.com
+
+How to Submit (applies to all assignments):
+1. Locate your repository
+2. Within that directory, type git add .
+3. Followed by git commit -m “abc”
+a. Replace abc with some meaningful message about the work you’re submitting,
+but make sure to surround your message in double quotes!
+
+4. Finally, git push
+5. Reload the page to make sure your work is updated!
