@@ -1,0 +1,8 @@
+ the variable types and type interaction
+1 
+1.0
+'Hello'
+'Hello'
+This tells that the single and double quotation marks (word in between) when executed gives the same output. 'Strings'
+2.0
+2

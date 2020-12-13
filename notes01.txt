@@ -1,0 +1,13 @@
+Assignment number 2 (independent research
+
+-Text Editor and its function
+- Object Oriented Programming
+- Boolean Variable Types
+
+
+A text editor is an editor without any special programming language being installed that allows you to edit strings ( any characters or numerical values).
+ But is can be modded with different types of instructions that reads the text in a certain way.
+
+An object oriented program allows the user to have access to different commands which can be attributed to a certain purpose. 
+
+Boolean variables can either be true or false, 1's or 0's. 
